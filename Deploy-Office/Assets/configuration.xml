@@ -1,0 +1,11 @@
+﻿<Configuration>
+  <Add OfficeClientEdition="64" Channel="{CHANNEL}" AllowCdnFallback="True" OfficeMgmtCOM="False">
+    <Product ID="{PRODUCTID}">
+      <Language ID="MatchOS" Fallback="en-us" />
+    </Product>
+  </Add>
+  <Display AcceptEULA="True" />
+  <Property Name="PinIconsToTaskbar" Value="False" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="True" />
+  <Property Name="AUTOACTIVATE" Value="False" />
+</Configuration>
